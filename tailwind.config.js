@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'ibm': ['IBM Plex Sans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

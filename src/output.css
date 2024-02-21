@@ -543,3 +543,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.font-ibm {
+  font-family: IBM Plex Sans, sans-serif;
+}
