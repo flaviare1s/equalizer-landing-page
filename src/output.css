@@ -985,6 +985,10 @@ video {
   width: 20%;
 }
 
+.w-\[33\%\] {
+  width: 33%;
+}
+
 .translate-y-8 {
   --tw-translate-y: 2rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1037,6 +1041,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-32 {
+  gap: 8rem;
 }
 
 .overflow-hidden {
@@ -1474,6 +1482,10 @@ video {
     display: block;
   }
 
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:hidden {
     display: none;
   }
@@ -1522,8 +1534,36 @@ video {
     width: 85%;
   }
 
+  .sm\:w-\[33\] {
+    width: 33;
+  }
+
+  .sm\:w-\[33\%\] {
+    width: 33%;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
+  .sm\:gap-16 {
+    gap: 4rem;
+  }
+
+  .sm\:gap-32 {
+    gap: 8rem;
   }
 
   .sm\:bg-bg-tablet {
@@ -1676,6 +1716,14 @@ video {
 
   .md\:leading-\[28px\] {
     line-height: 28px;
+  }
+}
+
+@media (min-width: 640px) {
+  @media (min-width: 1024px) {
+    .sm\:lg\:w-\[33\%\] {
+      width: 33%;
+    }
   }
 }
 
@@ -1936,6 +1984,10 @@ video {
     display: block;
   }
 
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:hidden {
     display: none;
   }
@@ -2048,6 +2100,30 @@ video {
     width: 15%;
   }
 
+  .lg\:w-screen {
+    width: 100vw;
+  }
+
+  .lg\:w-\[75\] {
+    width: 75;
+  }
+
+  .lg\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+
+  .lg\:gap-32 {
+    gap: 8rem;
+  }
+
   .lg\:bg-bg-desktop {
     background-image: url('../assets/bg-main-desktop.png');
   }
@@ -2070,6 +2146,11 @@ video {
   .lg\:px-\[54px\] {
     padding-left: 54px;
     padding-right: 54px;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:pt-\[\] {
@@ -2102,6 +2183,10 @@ video {
 
   .lg\:pt-\[35\%\] {
     padding-top: 35%;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-\[40px\] {
