@@ -720,6 +720,102 @@ video {
   right: -40%;
 }
 
+.top-\[-\] {
+  top: -;
+}
+
+.top-\[-20\] {
+  top: -20;
+}
+
+.top-\[-20\%\] {
+  top: -20%;
+}
+
+.right-\[-20\] {
+  right: -20;
+}
+
+.right-\[10\%\] {
+  right: 10%;
+}
+
+.right-\[-10\%\] {
+  right: -10%;
+}
+
+.right-\[-0\%\] {
+  right: -0%;
+}
+
+.right-\[-1\%\] {
+  right: -1%;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[-10\] {
+  left: -10;
+}
+
+.left-\[-10\%\] {
+  left: -10%;
+}
+
+.left-\[-20\%\] {
+  left: -20%;
+}
+
+.top-\[-10\%\] {
+  top: -10%;
+}
+
+.top-\[-0\%\] {
+  top: -0%;
+}
+
+.top-\[-15\%\] {
+  top: -15%;
+}
+
+.left-\[-25\%\] {
+  left: -25%;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.right-\[-10\] {
+  right: -10;
+}
+
+.right-\[-5\%\] {
+  right: -5%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -775,6 +871,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[30\%\] {
+  width: 30%;
 }
 
 .translate-y-8 {
@@ -1039,6 +1143,38 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .sm\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .sm\:w-\[\] {
+    width: ;
+  }
+
+  .sm\:w-\[70\] {
+    width: 70;
+  }
+
+  .sm\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
   .sm\:bg-bg-tablet {
     background-image: url('../assets/bg-main-tablet.png');
   }
@@ -1051,6 +1187,10 @@ video {
   .sm\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .sm\:pb-\[30\%\] {
+    padding-bottom: 30%;
   }
 
   .sm\:text-\[64px\] {
@@ -1067,6 +1207,10 @@ video {
     display: block;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-\[40\%\] {
     width: 40%;
   }
@@ -1077,6 +1221,46 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:pb-\[\] {
+    padding-bottom: ;
+  }
+
+  .md\:pb-\[30\] {
+    padding-bottom: 30;
+  }
+
+  .md\:pb-\[30\%\] {
+    padding-bottom: 30%;
+  }
+
+  .md\:pb-\[15\%\] {
+    padding-bottom: 15%;
+  }
+
+  .md\:pb-\[10\%\] {
+    padding-bottom: 10%;
+  }
+
+  .md\:pb-\[1\%\] {
+    padding-bottom: 1%;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
+  }
+
+  .md\:pb-\[25\%\] {
+    padding-bottom: 25%;
+  }
+
+  .md\:pb-\[20\%\] {
+    padding-bottom: 20%;
+  }
+
+  .md\:pb-\[\%\] {
+    padding-bottom: %;
   }
 }
 
