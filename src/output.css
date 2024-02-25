@@ -708,6 +708,18 @@ video {
   right: -30%;
 }
 
+.right-\[-\%\] {
+  right: -%;
+}
+
+.right-\[-20\%\] {
+  right: -20%;
+}
+
+.right-\[-40\%\] {
+  right: -40%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
