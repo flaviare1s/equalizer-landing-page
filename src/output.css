@@ -1414,6 +1414,10 @@ video {
     margin-top: 4rem;
   }
 
+  .sm\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .sm\:block {
     display: block;
   }
