@@ -576,6 +576,86 @@ video {
   top: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[70px\] {
+  top: 70px;
+}
+
+.top-\[80px\] {
+  top: 80px;
+}
+
+.top-\[-80px\] {
+  top: -80px;
+}
+
+.top-\[-50px\] {
+  top: -50px;
+}
+
+.top-\[-60px\] {
+  top: -60px;
+}
+
+.top-\[-30px\] {
+  top: -30px;
+}
+
+.top-\[-70px\] {
+  top: -70px;
+}
+
+.top-\[-100px\] {
+  top: -100px;
+}
+
+.top-\[-200px\] {
+  top: -200px;
+}
+
+.top-\[-150px\] {
+  top: -150px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[-159px\] {
+  right: -159px;
+}
+
+.right-\[-100px\] {
+  right: -100px;
+}
+
+.right-\[-80px\] {
+  right: -80px;
+}
+
+.right-\[-110px\] {
+  right: -110px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -617,6 +697,10 @@ video {
   height: 61px;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-\[146px\] {
   width: 146px;
 }
@@ -651,6 +735,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .rounded-lg {
@@ -695,6 +783,21 @@ video {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .px-6 {
