@@ -1112,8 +1112,53 @@ video {
     padding-right: 54px;
   }
 
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .lg\:pt-\[35\%\] {
     padding-top: 35%;
+  }
+
+  .lg\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .lg\:pt-\[62\] {
+    padding-top: 62;
+  }
+
+  .lg\:pt-\[62px\] {
+    padding-top: 62px;
+  }
+
+  .lg\:pb-\[127px\] {
+    padding-bottom: 127px;
+  }
+
+  .lg\:pb-\[\] {
+    padding-bottom: ;
+  }
+
+  .lg\:pb-\[50\%\] {
+    padding-bottom: 50%;
+  }
+
+  .lg\:pb-\[40\%\] {
+    padding-bottom: 40%;
+  }
+
+  .lg\:pb-\[0\%\] {
+    padding-bottom: 0%;
+  }
+
+  .lg\:pb-\[\%\] {
+    padding-bottom: %;
+  }
+
+  .lg\:pb-\[35\%\] {
+    padding-bottom: 35%;
   }
 
   .lg\:text-\[40px\] {
