@@ -1016,6 +1016,14 @@ video {
     width: 50%;
   }
 
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
   .md\:leading-\[28px\] {
     line-height: 28px;
   }
